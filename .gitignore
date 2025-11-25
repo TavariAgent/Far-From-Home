@@ -1,0 +1,104 @@
+# ===== IDE =====
+
+# Eclipse
+bin/
+*.launch
+.settings/
+.metadata/
+.classpath
+.project
+
+# IntelliJ IDEA
+out/
+*.ipr
+*.iws
+*.iml
+.idea/
+
+# VS Code
+.vscode/
+
+# ===== Build Systems =====
+
+# Gradle
+build/
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# Maven (just in case)
+target/
+
+# ===== Minecraft / NeoForge =====
+
+# Run directories (client/server test instances)
+run/
+runs/
+run-data/
+
+# Logs and crash reports
+logs/
+*.log
+crash-reports/
+hs_err_pid*
+
+# Local server files (if testing)
+world/
+*.dat_old
+banned-ips.json
+banned-players.json
+ops.json
+whitelist.json
+usercache.json
+server.properties
+
+# ===== OS Generated =====
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.Trash-*
+
+# ===== Project Specific =====
+
+# Local testing/dev files
+local/
+dev/
+test-output/
+
+# Sensitive data (API keys, tokens, etc.)
+secrets/
+*.secret
+*.env
+.env
+
+# Repo folder (your existing entry)
+repo/
+
+# Release builds you don't want tracked
+releases/
+*.jar.original
+
+# ===== Misc =====
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Temp files
+*.tmp
+*.temp
+*.swp
